@@ -36,18 +36,25 @@
 // }
 
 // Створити масив з 10-ти чисел. Знайти та вивести на екран максимальне значення з масиву.
-                 
 
-// const numbers = [16, 165, 72, 91, 5, 19, 1, 9, 163, 63];
-// for(const number of numbers){
-//     if(number)
-// } 
+
+const numbers = [16,165,72,91,5,19,1,9,163,63];
+let max=numbers[0];
+for(let i = 1; i < numbers.length; i++){
+    if(numbers[i] > max){
+        max = numbers[i];
+        
+        
+    }
+    
+}
+console.log(max);
 
 // Створити масив з 10-ти чисел. Знайти всі парні числа в масиві та вивести їх на екран.
 
-const numberі = [16, 165, 72, 91, 5, 19, 1, 9, 163, 63]
-for (const number of numbers) {
-    if (number % 2 === 0 ) {
-        console.log(number);
-    }
-}
+// const numbers = [16, 165, 72, 91, 5, 19, 1, 9, 163, 63]
+// for (const number of numbers) {
+//     if (number % 2 === 0 ) {
+//         console.log(number);
+//     }
+// }
